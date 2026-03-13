@@ -1,49 +1,49 @@
-.botoes{
-    display: inline-block;
+img {
+    width: 100%;
 }
 
-.botao_inscricao{
-    background-color: blue;
-    color: white;
-    padding: 10px;
-    border-radius: 50px;
-    text-align: center;
-}
-
-li{
-    float: left;
+li {
+    float:left;
     list-style-type: none;
     padding-left: 10px;
     padding-right: 10px;
 }
 
-.botao_alojamento{
-    background-color:aqua;
-    color: white;
+.botao_inscricao {
+    background-color: #00839C;
     padding: 10px;
     border-radius: 50px;
+    color: white;
     text-align: center;
+    width: 125px;
 }
 
-.botao_avaliacao{
-    background-color: greenyellow;
-    color: white;
+.botao_alojamento {
+    background-color: #1ABEA3;
     padding: 10px;
     border-radius: 50px;
+    color: white;
     text-align: center;
+    width: 135px;
 }
 
-.alinha-centro{
+.botao_avaliacao {
+    background-color: #709204;
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    width: 250px;
+}
+
+.alinha_centro {
     align-items: center;
     text-align: center;
     display: flex;
     justify-content: center;
 }
 
-img{
-    width: 100%;
-}
-
-.cinza{
-    color:#474747;
+.titulos {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
